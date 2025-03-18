@@ -17,10 +17,13 @@ def calculate_cwa(grades):
 
 
 grades_list = [
-    (75, 3),
-    (80, 2),
-    (65, 3),
-    (90, 1),
+    (82, 3), # Pure Math
+    (67.5, 2), #Discrete mathematics
+    (69.79, 2), #Circuit theory
+    (71, 3), #Programming
+    (68, 3), #IT
+    (70, 2), #Commskills
+    (75, 2) #Econs
 ]
 
 cwa = calculate_cwa(grades_list)
